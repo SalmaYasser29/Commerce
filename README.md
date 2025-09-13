@@ -37,5 +37,5 @@ This project is an eBay-like auction site built with Django. Users can create li
 5. Access at:
     http://127.0.0.1:8000.
 
-### YouTube Demo
-    YouTube link with timestamped demonstration: https://youtu.be/YourVideoID
+### YouTube:
+    Video demo: <https://youtu.be/JgsSLDuJUh4>
