@@ -38,5 +38,4 @@ This project is an eBay-like auction site built with Django. Users can create li
     http://127.0.0.1:8000.
 
 ### YouTube:
-    Video demo: 
-        https://youtu.be/JgsSLDuJUh4
+- This repo contains the auction app. Video demo: <https://youtu.be/JgsSLDuJUh4>
