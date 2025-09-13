@@ -1,0 +1,14 @@
+{% extends "auctions/layout.html" %}
+
+{% block title %}My Watchlist{% endblock %}
+
+{% block body %}
+<h2>My Wins</h2>
+<ul>
+{% for listing in wins %}
+    <li><a href="{% url 'listing' listing.id %}">{{ listing.title }}</a> - ${{ listing.current_price }}</li>
+{% empty %}
+    <li>You haven't won any auctions yet.</li>
+{% endfor %}
+</ul>
+{% endblock %}
